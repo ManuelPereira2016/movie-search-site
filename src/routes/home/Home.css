@@ -51,11 +51,11 @@
 :global { 
   .img-wrapper {
     position: absolute;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
     background-color: #000;
-    opacity: 0.7;
+    opacity: 0.4;
   }
 
   body {

@@ -1,4 +1,4 @@
-## React Starter Kit — "[isomorphic]
+## Isomorphic Movie Search site
 
 heroku app: &nbsp; <a href="https://github.com/kriasoft/react-starter-kit/stargazers"></a>
 

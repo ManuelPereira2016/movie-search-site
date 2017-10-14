@@ -1,0 +1,6 @@
+{
+  "name": "SearchLogo",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SearchLogo.js"
+}

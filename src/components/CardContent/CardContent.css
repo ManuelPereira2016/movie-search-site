@@ -1,0 +1,77 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.newsItem {
+  margin: 0 0 2rem;
+}
+
+.newsTitle {
+  font-size: 1.5rem;
+}
+
+.newsDesc {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.125rem;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+:global {
+ .tagline {
+    font-size: 1.8em;
+    color: #19AB37;
+    display:block;
+ }
+
+ .card-content {
+  height: 550px;
+  opacity: 0.8;
+  background-color: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 0.9;
+ }
+
+ .card-content h1 {
+  font-size: 3.3em;
+  font-weight: 600;
+ }
+
+ .card-content p {
+  font-size: 1.2em;
+  text-align: justify;
+  color: #eee;
+ }
+
+}

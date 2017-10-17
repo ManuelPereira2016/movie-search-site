@@ -14,21 +14,21 @@ import { makeDir, moveDir, cleanDir } from './lib/fs';
 import run from './run';
 
 // GitHub Pages
-const remote = {
-  name: 'github',
-  url: 'https://github.com/ManuelPereira2016/movie-search-site.git',
-  branch: 'gh-pages',
-  website: 'https://ManuelPereira2016.github.io/movie-search-site/',
-  static: true,
-};
+// const remote = {
+//   name: 'github',
+//   url: 'https://github.com/ManuelPereira2016/movie-search-site.git',
+//   branch: 'gh-pages',
+//   website: 'https://ManuelPereira2016.github.io/movie-search-site/',
+//   static: true,
+// };
 
 // Heroku
-// const remote = {
-//   name: 'heroku',
-//   url: 'https://git.heroku.com/agile-river-96192.git',
-//   branch: 'master',
-//   website: 'https://agile-river-96192.herokuapp.com',
-// };
+const remote = {
+  name: 'heroku',
+  url: 'https://git.heroku.com/moviedb-example.git',
+  branch: 'master',
+  website: 'https://moviedb-example.herokuapp.com/',
+};
 
 // Azure Web Apps
 // const remote = {

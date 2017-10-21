@@ -7,12 +7,11 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 @import '../../components/variables.css';
-@import url('https://fonts.googleapis.com/css?family=Lato:300,700|Oswald:300');
 
 .root {
   padding-left: 20px;
   padding-right: 20px;
-}
+} 
 
 .container {
   margin: 0 auto;
@@ -58,9 +57,6 @@
     opacity: 0.4;
   }
 
-  body {
-    font-family: lato !important;
-  }
   .search-container {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -102,7 +98,5 @@
     opacity: 1;
     transition: opacity 1s ease-in;
   }
-
-
 
 }

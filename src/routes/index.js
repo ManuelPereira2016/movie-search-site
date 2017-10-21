@@ -65,7 +65,7 @@ const routes = {
 
     return route;
   },
-};
+}; 
 
 // The error page is available by permanent url for development mode
 if (__DEV__) {

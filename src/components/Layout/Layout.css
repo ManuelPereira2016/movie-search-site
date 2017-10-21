@@ -6,7 +6,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
-
 @import '../variables.css';
 
 /*
@@ -20,7 +19,7 @@
  * ========================================================================== */
 
 html {
-  color: #222;
+  color: #eee;
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: var(--font-family-base);
@@ -29,10 +28,15 @@ html {
 
 body {
   margin: 0;
+  background-color: #000;
+  color:#fff !important;
+  transition: all 1s ease-in-out;
+  font-family: lato !important;
 }
 
 a {
   color: #0074c2;
+  text-decoration: none !important;
 }
 
 /*

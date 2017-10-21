@@ -63,9 +63,14 @@
   opacity: 0.9;
  }
 
+ label {
+  color: #eee;
+ }
+
  .card-content h1 {
   font-size: 3.3em;
   font-weight: 600;
+  color: #eee;
  }
 
  .card-content p {

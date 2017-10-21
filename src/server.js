@@ -12,7 +12,6 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import expressJwt, { UnauthorizedError as Jwt401Error } from 'express-jwt';
-import expressGraphQL from 'express-graphql';
 import jwt from 'jsonwebtoken';
 import fetch from 'node-fetch';
 import React from 'react';
@@ -80,6 +79,7 @@ app.get(
     session: false,
   }),
 );
+
 app.get(
   '/login/facebook/return',
   passport.authenticate('facebook', {
@@ -97,15 +97,7 @@ app.get(
 //
 // Register API middleware
 // -----------------------------------------------------------------------------
-app.use(
-  '/graphql',
-  expressGraphQL(req => ({
-    schema,
-    graphiql: true,
-    rootValue: { request: req },
-    pretty: __DEV__,
-  })),
-);
+
 
 //
 // Register server-side rendering middleware
@@ -139,7 +131,7 @@ app.get('*', async (req, res, next) => {
     if (route.redirect) {
       res.redirect(route.status || 302, route.redirect);
       return;
-    }
+    } 
 
     const data = { ...route };
     data.children = ReactDOM.renderToString(

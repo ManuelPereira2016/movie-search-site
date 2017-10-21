@@ -77,4 +77,4 @@ Home.propTypes = {
   }).isRequired
 };
 
-export default withStyles(normalizeCss, s, bootstrap)(Home);
+export default withStyles(bootstrap, normalizeCss, s)(Home);
